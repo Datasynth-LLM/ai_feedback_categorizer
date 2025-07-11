@@ -1,4 +1,4 @@
-git clone https://github.com/datapudin/ai-feedback-categorizer.git
-cd ai-feedback-categorizer
+git clone https://github.com/Datasynth-LLM/feedback-categorizer.git
+cd feedback-categorizer
 pip install -r requirements.txt
 streamlit run app.py
