@@ -1,13 +1,13 @@
-streamlit==1.35.0                # Required for the dashboard
-pandas==2.2.3                    #  Used for dataframes and processing
-numpy==1.26.4                    #  Needed for calculations/wordcloud
-matplotlib==3.8.4               #  Used for plotting and wordcloud
-seaborn==0.13.2                  # Visualizations (bar plots, etc.)
-wordcloud==1.9.3                 #  Generates wordcloud for keywords
-transformers==4.41.1            # For zero-shot classification and sentiment
-torch==2.3.0                     #  Backend required by transformers
-scikit-learn==1.4.2             #  Used for keyword ranking, utility functions
-reportlab==4.1.0                 #  For PDF report generation
-langdetect==1.0.9                #  (Optional) Used for multi-language support
-python-docx==1.1.0               #  Optional if you export to DOCX
-joblib==1.4.2                    #  For saving/loading models (optional)
+streamlit==1.35.0
+pandas==2.2.2
+numpy==1.24.4
+matplotlib==3.7.2
+seaborn==0.13.2
+wordcloud==1.9.2
+transformers==4.41.1
+torch==2.2.2
+scikit-learn==1.4.2
+reportlab==4.1.0
+langdetect==1.0.9
+python-docx==1.1.0
+joblib==1.4.2
